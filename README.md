@@ -1,28 +1,17 @@
-# Inicijalne upute za izradu zadaća
-Poštovane kolegice i kolege, 
-
-čestitamo vam jer ste uspješno kreirali **repozitorij** koji ćete koristiti za izradu vašeg projekta, tj. za pisanje vaših triju zadaća. To će uključivati izradu dokumentacije i programskog kôda.
-
-Molim vas izmijenite ovaj dokument kako biste u njemu naveli naziv i kratak opis projekta koji obrađujete u vašim zadaćama, kao i vaše osobne podatke. Za upute o sintaksi koju možete koristiti u ovom dokumentu i kod pisanja vaše projektne dokumentacije obavezno pogledajte upute o sintaksi koje su dostupne na Moodleu, a dodatno i [ovaj link](https://guides.github.com/features/mastering-markdown/).
-
-A sada, vrijeme je za prvi korak rada na vašem projektu. 🙂 Za upis/opis vašeg programskog proizvoda molimo vas koristite **predložak** koji je naveden u nastavku. Započnite tako da kliknete na *olovku* u desnom gornjem kutu ovoga dokumenta te izbrišite sve što je iznad _Naziva projekta_, kao i sve upute koje su navedene u zagradama u predlošku ispod.
-
-# Naziv projekta
-(U redak iznad navedite naziv projekta koji ste dobili za analizu!)
+# Korisnički zahtjevi - Osobna telemedicina
 
 ## Podaci o studentu
-(Ispod promijenite samo drugi redak tablice!)
 
 Ime i prezime | E-mail adresa (FOI) | JMBAG | Github korisničko ime
 ------------  | ------------------- | ----- | ---------------------
-Ime i prezime | mojaadresa@foi.hr | 000000000 | githubuser
+Karlo Tukša | ktuksa22@foi.hr | 0016160284 | ktuksa22
 
 
 ## Opis domene
-(Vlastitim riječima opišite domenu ili problem koji pokriva projekt vaše zadaće!)
+Projekt se bavi razvojem softverskog rješenja za osobnu telemedicinu, s fokusom na pružanje medicinskih usluga putem aplikacije "MyDoc". Ideja aplikacije je olakšati pristup liječnicima opće prakse i korisnicima, osobito studentima koji često imaju poteškoća u pristupu zdravstvenoj skrbi zbog udaljenosti od doma ili dugih redova čekanja. Korisnici koristeći aplikaciju "MyDoc" mogu zatražiti konzultacije s liječnicima putem video poziva, koristiti mobilne usluge (vađenje krvi ili izlazak stručnog tima na lokaciju korisnika). Cilj je korisnicima pružiti brz, jednostavan i učinkovit način za upravljanje njihovim zdravstvenim potrebama iz udobnosti vlastitog doma.
 
 ## Specifikacija projekta
-(Vlastitim riječima opišite zahtjeve za izradu ovog programskog proizvoda!)
+Specifikacije projekta su razvoj aplikacije "MyDoc" koja će omogućiti korisnicima pristup liječnicima opće prakse putem interneta, implementacija funkcionalnosti za zakazivanje konzultacija s liječnicima putem video poziva, poruka ili telefonskog poziva, omogućavanje korisnicima da dobiju upute za specijalističke pretrage putem aplikacije, razvoj mobilnih usluga, implementacija modela pretplate za korisnike, integracija sustava popusta za studente, omogućavanje administrativnih funkcija osiguravajućoj tvrtki za praćenje korisnika, paketa koje koriste te korištenih usluga, osiguravanje sigurnosti i zaštite privatnosti korisničkih podataka, praćenje povijesti pacijenta i podrška za unos medicinskih izvještaja i laboratorijskih nalaza te implementacija funkcionalnosti za generiranje izvještaja o korisnicima, korištenim paketima i uslugama unutar određenog perioda.
 
 ## Zadatak
 (U root repozitorija učitajte zadatak koji ste dobili i potom ovdje stavite link na njegovo otvaranje!)
