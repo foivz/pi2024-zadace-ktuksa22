@@ -14,7 +14,7 @@ Projekt se bavi razvojem softverskog rješenja za osobnu telemedicinu, s fokusom
 Specifikacije projekta su razvoj aplikacije "MyDoc" koja će omogućiti korisnicima pristup liječnicima opće prakse putem interneta, implementacija funkcionalnosti za zakazivanje konzultacija s liječnicima putem video poziva, poruka ili telefonskog poziva, omogućavanje korisnicima da dobiju upute za specijalističke pretrage putem aplikacije, razvoj mobilnih usluga, implementacija modela pretplate za korisnike, integracija sustava popusta za studente, omogućavanje administrativnih funkcija osiguravajućoj tvrtki za praćenje korisnika, paketa koje koriste te korištenih usluga, osiguravanje sigurnosti i zaštite privatnosti korisničkih podataka, praćenje povijesti pacijenta i podrška za unos medicinskih izvještaja i laboratorijskih nalaza te implementacija funkcionalnosti za generiranje izvještaja o korisnicima, korištenim paketima i uslugama unutar određenog perioda.
 
 ## Zadatak
-Korisnički zahtjevi - Softver za osobnu telemedicinu.pdf
+[Korisnički zahtjevi - Softver za osobnu telemedicinu.pdf](https://github.com/foivz/pi2024-zadace-ktuksa22/blob/b0e1c9a9de386807761706efa734b4bed6e2a1f4/Korisni%C4%8Dki%20zahtjevi%20-%20Softver%20za%20osobnu%20telemedicinu.pdf)https://github.com/foivz/pi2024-zadace-ktuksa22/blob/b0e1c9a9de386807761706efa734b4bed6e2a1f4/Korisni%C4%8Dki%20zahtjevi%20-%20Softver%20za%20osobnu%20telemedicinu.pdf
 
 ## Resursi
 
