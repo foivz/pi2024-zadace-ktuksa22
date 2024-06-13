@@ -68,7 +68,8 @@ namespace Treca_Zadaca
         private void buttonDodaj_Click(object sender, EventArgs e)
         {
             DodajNalazForm dodajNalazForm = new DodajNalazForm();
-            dodajNalazForm.ShowDialog(); 
+            dodajNalazForm.ShowDialog();
+            FillDataGridView();
         }
 
         private void buttonObrisi_Click(object sender, EventArgs e)
