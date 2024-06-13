@@ -39,6 +39,7 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -58,10 +59,10 @@
     </Compile>
     <Compile Include="Modeli\NalaziKorisnika.cs" />
     <Compile Include="Modeli\Osoba.cs" />
-    <Compile Include="PI2324_ktuksa22_DBDataSet.Designer.cs">
+    <Compile Include="PI2324_ktuksa22_DBDataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>PI2324_ktuksa22_DBDataSet.xsd</DependentUpon>
+      <DependentUpon>PI2324_ktuksa22_DBDataSet1.xsd</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Promjena.cs">
@@ -85,16 +86,16 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <None Include="PI2324_ktuksa22_DBDataSet.xsc">
-      <DependentUpon>PI2324_ktuksa22_DBDataSet.xsd</DependentUpon>
+    <None Include="PI2324_ktuksa22_DBDataSet1.xsc">
+      <DependentUpon>PI2324_ktuksa22_DBDataSet1.xsd</DependentUpon>
     </None>
-    <None Include="PI2324_ktuksa22_DBDataSet.xsd">
+    <None Include="PI2324_ktuksa22_DBDataSet1.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>PI2324_ktuksa22_DBDataSet.Designer.cs</LastGenOutput>
+      <LastGenOutput>PI2324_ktuksa22_DBDataSet1.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="PI2324_ktuksa22_DBDataSet.xss">
-      <DependentUpon>PI2324_ktuksa22_DBDataSet.xsd</DependentUpon>
+    <None Include="PI2324_ktuksa22_DBDataSet1.xss">
+      <DependentUpon>PI2324_ktuksa22_DBDataSet1.xsd</DependentUpon>
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
