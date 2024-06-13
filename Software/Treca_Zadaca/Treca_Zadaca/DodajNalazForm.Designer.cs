@@ -52,50 +52,50 @@
             this.textBoxPretraga.Location = new System.Drawing.Point(130, 113);
             this.textBoxPretraga.Name = "textBoxPretraga";
             this.textBoxPretraga.Size = new System.Drawing.Size(174, 20);
-            this.textBoxPretraga.TabIndex = 0;
+            this.textBoxPretraga.TabIndex = 1;
             // 
             // textBoxRezultat
             // 
             this.textBoxRezultat.Location = new System.Drawing.Point(130, 165);
             this.textBoxRezultat.Name = "textBoxRezultat";
             this.textBoxRezultat.Size = new System.Drawing.Size(174, 20);
-            this.textBoxRezultat.TabIndex = 1;
+            this.textBoxRezultat.TabIndex = 2;
             // 
             // textBoxPreporuka
             // 
             this.textBoxPreporuka.Location = new System.Drawing.Point(450, 113);
             this.textBoxPreporuka.Name = "textBoxPreporuka";
             this.textBoxPreporuka.Size = new System.Drawing.Size(350, 20);
-            this.textBoxPreporuka.TabIndex = 3;
+            this.textBoxPreporuka.TabIndex = 5;
             // 
             // textBoxLijek
             // 
             this.textBoxLijek.Location = new System.Drawing.Point(450, 165);
             this.textBoxLijek.Name = "textBoxLijek";
             this.textBoxLijek.Size = new System.Drawing.Size(350, 20);
-            this.textBoxLijek.TabIndex = 4;
+            this.textBoxLijek.TabIndex = 6;
             // 
             // textBoxOpis
             // 
             this.textBoxOpis.Location = new System.Drawing.Point(450, 70);
             this.textBoxOpis.Name = "textBoxOpis";
             this.textBoxOpis.Size = new System.Drawing.Size(350, 20);
-            this.textBoxOpis.TabIndex = 5;
+            this.textBoxOpis.TabIndex = 4;
             // 
             // textBoxId
             // 
             this.textBoxId.Location = new System.Drawing.Point(130, 70);
             this.textBoxId.Name = "textBoxId";
             this.textBoxId.Size = new System.Drawing.Size(174, 20);
-            this.textBoxId.TabIndex = 6;
+            this.textBoxId.TabIndex = 0;
             // 
             // comboBoxJedinica
             // 
             this.comboBoxJedinica.FormattingEnabled = true;
-            this.comboBoxJedinica.Location = new System.Drawing.Point(130, 216);
+            this.comboBoxJedinica.Location = new System.Drawing.Point(129, 213);
             this.comboBoxJedinica.Name = "comboBoxJedinica";
             this.comboBoxJedinica.Size = new System.Drawing.Size(174, 21);
-            this.comboBoxJedinica.TabIndex = 7;
+            this.comboBoxJedinica.TabIndex = 3;
             // 
             // label1
             // 
@@ -167,7 +167,7 @@
             this.buttonSpremi.Location = new System.Drawing.Point(710, 349);
             this.buttonSpremi.Name = "buttonSpremi";
             this.buttonSpremi.Size = new System.Drawing.Size(90, 36);
-            this.buttonSpremi.TabIndex = 15;
+            this.buttonSpremi.TabIndex = 7;
             this.buttonSpremi.Text = "Spremi";
             this.buttonSpremi.UseVisualStyleBackColor = false;
             this.buttonSpremi.Click += new System.EventHandler(this.buttonSpremi_Click_1);
@@ -178,7 +178,7 @@
             this.buttonOdustani.Location = new System.Drawing.Point(130, 349);
             this.buttonOdustani.Name = "buttonOdustani";
             this.buttonOdustani.Size = new System.Drawing.Size(90, 36);
-            this.buttonOdustani.TabIndex = 16;
+            this.buttonOdustani.TabIndex = 8;
             this.buttonOdustani.Text = "Odustani";
             this.buttonOdustani.UseVisualStyleBackColor = false;
             this.buttonOdustani.Click += new System.EventHandler(this.buttonOdustani_Click);
@@ -220,13 +220,13 @@
 
         #endregion
 
+        private System.Windows.Forms.TextBox textBoxId;
         private System.Windows.Forms.TextBox textBoxPretraga;
         private System.Windows.Forms.TextBox textBoxRezultat;
+        private System.Windows.Forms.ComboBox comboBoxJedinica;
+        private System.Windows.Forms.TextBox textBoxOpis;
         private System.Windows.Forms.TextBox textBoxPreporuka;
         private System.Windows.Forms.TextBox textBoxLijek;
-        private System.Windows.Forms.TextBox textBoxOpis;
-        private System.Windows.Forms.TextBox textBoxId;
-        private System.Windows.Forms.ComboBox comboBoxJedinica;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;

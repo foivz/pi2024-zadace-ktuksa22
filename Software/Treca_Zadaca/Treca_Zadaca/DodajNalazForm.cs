@@ -46,6 +46,18 @@ namespace Treca_Zadaca
 
         private void buttonSpremi_Click_1(object sender, EventArgs e)
         {
+
+            if (string.IsNullOrWhiteSpace(textBoxId.Text) ||
+        string.IsNullOrWhiteSpace(textBoxPretraga.Text) ||
+        string.IsNullOrWhiteSpace(textBoxRezultat.Text) ||
+        string.IsNullOrWhiteSpace(textBoxOpis.Text) ||
+        string.IsNullOrWhiteSpace(textBoxPreporuka.Text) ||
+        string.IsNullOrWhiteSpace(textBoxLijek.Text) ||
+        comboBoxJedinica.SelectedItem == null)
+            {
+                MessageBox.Show("Molimo popunite sva polja prije spremanja.");
+                return; // Prekini izvršavanje ako neka polja nisu popunjena
+            }
             string connectionString = "Server=31.147.206.65;Database=PI2324_ktuksa22_DB;User Id=PI2324_ktuksa22_User;Password=WLV7_OMG;";
             string query = "INSERT INTO Nalazi (Id, Pretraga, Rezultat, Jedinica, Opis, Preporuka, Lijek) VALUES (@Id, @Pretraga, @Rezultat, @Jedinica, @Opis, @Preporuka, @Lijek)";
 

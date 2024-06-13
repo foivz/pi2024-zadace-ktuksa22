@@ -35,6 +35,7 @@
             this.textBoxSearch = new System.Windows.Forms.TextBox();
             this.buttonSearch = new System.Windows.Forms.Button();
             this.buttonObrisi = new System.Windows.Forms.Button();
+            this.buttonAzuriraj = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -94,12 +95,23 @@
             this.buttonObrisi.UseVisualStyleBackColor = true;
             this.buttonObrisi.Click += new System.EventHandler(this.buttonObrisi_Click);
             // 
+            // buttonAzuriraj
+            // 
+            this.buttonAzuriraj.Location = new System.Drawing.Point(673, 480);
+            this.buttonAzuriraj.Name = "buttonAzuriraj";
+            this.buttonAzuriraj.Size = new System.Drawing.Size(75, 23);
+            this.buttonAzuriraj.TabIndex = 6;
+            this.buttonAzuriraj.Text = "Ažuriraj";
+            this.buttonAzuriraj.UseVisualStyleBackColor = true;
+            this.buttonAzuriraj.Click += new System.EventHandler(this.buttonAzuriraj_Click);
+            // 
             // Osobni_nalaz
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Khaki;
             this.ClientSize = new System.Drawing.Size(984, 551);
+            this.Controls.Add(this.buttonAzuriraj);
             this.Controls.Add(this.buttonObrisi);
             this.Controls.Add(this.buttonSearch);
             this.Controls.Add(this.textBoxSearch);
@@ -129,6 +141,7 @@
         private System.Windows.Forms.TextBox textBoxSearch;
         private System.Windows.Forms.Button buttonSearch;
         private System.Windows.Forms.Button buttonObrisi;
+        private System.Windows.Forms.Button buttonAzuriraj;
     }
 }
 

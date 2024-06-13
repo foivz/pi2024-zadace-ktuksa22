@@ -116,5 +116,61 @@ namespace Treca_Zadaca
                 MessageBox.Show("Nije označen red za brisanje.");
             }
         }
+
+        private void buttonAzuriraj_Click(object sender, EventArgs e)
+        {
+            string connectionString = "Server=31.147.206.65;Database=PI2324_ktuksa22_DB;User Id=PI2324_ktuksa22_User;Password=WLV7_OMG;";
+            // Provjeri je li odabran red u DataGridView-u
+            if (dataGridView1.SelectedRows.Count > 0)
+            {
+                // Dohvati podatke iz označenog reda za ažuriranje
+                int id = Convert.ToInt32(dataGridView1.SelectedRows[0].Cells["Id"].Value);
+                string pretraga = dataGridView1.SelectedRows[0].Cells["Pretraga"].Value.ToString();
+                string rezultat = dataGridView1.SelectedRows[0].Cells["Rezultat"].Value.ToString();
+                string preporuka = dataGridView1.SelectedRows[0].Cells["Preporuka"].Value.ToString();
+                string lijek = dataGridView1.SelectedRows[0].Cells["Lijek"].Value.ToString();
+                string opis = dataGridView1.SelectedRows[0].Cells["Opis"].Value.ToString();
+                string jedinica = dataGridView1.SelectedRows[0].Cells["Jedinica"].Value.ToString();
+
+                // Implementirajte logiku ažuriranja u bazi podataka
+                string query = "UPDATE Nalazi SET Pretraga = @Pretraga, Rezultat = @Rezultat, Preporuka = @Preporuka, Lijek = @Lijek, Opis = @Opis, Jedinica = @Jedinica WHERE Id = @Id";
+
+                using (SqlConnection connection = new SqlConnection(connectionString))
+                {
+                    SqlCommand command = new SqlCommand(query, connection);
+                    command.Parameters.AddWithValue("@Pretraga", pretraga);
+                    command.Parameters.AddWithValue("@Rezultat", rezultat);
+                    command.Parameters.AddWithValue("@Preporuka", preporuka);
+                    command.Parameters.AddWithValue("@Lijek", lijek);
+                    command.Parameters.AddWithValue("@Opis", opis);
+                    command.Parameters.AddWithValue("@Jedinica", jedinica);
+                    command.Parameters.AddWithValue("@Id", id);
+
+                    try
+                    {
+                        connection.Open();
+                        int rowsAffected = command.ExecuteNonQuery();
+
+                        // Provjerite je li ažuriranje uspješno
+                        if (rowsAffected > 0)
+                        {
+                            MessageBox.Show("Podaci su uspješno ažurirani.");
+                        }
+                        else
+                        {
+                            MessageBox.Show("Nije uspjelo ažuriranje podataka.");
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Došlo je do greške prilikom ažuriranja podataka: " + ex.Message);
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Nije označen red za ažuriranje.");
+            }
+        }
     }
 }
