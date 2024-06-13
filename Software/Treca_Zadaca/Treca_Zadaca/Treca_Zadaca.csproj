@@ -58,8 +58,14 @@
     </Compile>
     <Compile Include="Modeli\NalaziKorisnika.cs" />
     <Compile Include="Modeli\Osoba.cs" />
+    <Compile Include="PI2324_ktuksa22_DBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PI2324_ktuksa22_DBDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repozitorij\NalaziRep.cs" />
     <EmbeddedResource Include="Osobni_nalaz.resx">
       <DependentUpon>Osobni_nalaz.cs</DependentUpon>
     </EmbeddedResource>
@@ -73,6 +79,17 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="PI2324_ktuksa22_DBDataSet.xsc">
+      <DependentUpon>PI2324_ktuksa22_DBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PI2324_ktuksa22_DBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PI2324_ktuksa22_DBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PI2324_ktuksa22_DBDataSet.xss">
+      <DependentUpon>PI2324_ktuksa22_DBDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
