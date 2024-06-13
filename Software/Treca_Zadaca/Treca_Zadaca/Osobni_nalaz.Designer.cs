@@ -36,6 +36,7 @@
             this.buttonSearch = new System.Windows.Forms.Button();
             this.buttonObrisi = new System.Windows.Forms.Button();
             this.buttonAzuriraj = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -44,9 +45,9 @@
             // 
             this.dataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(78, 130);
+            this.dataGridView1.Location = new System.Drawing.Point(78, 160);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(825, 334);
+            this.dataGridView1.Size = new System.Drawing.Size(825, 304);
             this.dataGridView1.TabIndex = 0;
             // 
             // pictureBox1
@@ -107,12 +108,24 @@
             this.buttonAzuriraj.UseVisualStyleBackColor = true;
             this.buttonAzuriraj.Click += new System.EventHandler(this.buttonAzuriraj_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(365, 113);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(243, 37);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "Nalazi korisnika";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
             // Osobni_nalaz
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Khaki;
             this.ClientSize = new System.Drawing.Size(984, 551);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.buttonAzuriraj);
             this.Controls.Add(this.buttonObrisi);
             this.Controls.Add(this.buttonSearch);
@@ -144,6 +157,7 @@
         private System.Windows.Forms.Button buttonSearch;
         private System.Windows.Forms.Button buttonObrisi;
         private System.Windows.Forms.Button buttonAzuriraj;
+        private System.Windows.Forms.Label label2;
     }
 }
 
