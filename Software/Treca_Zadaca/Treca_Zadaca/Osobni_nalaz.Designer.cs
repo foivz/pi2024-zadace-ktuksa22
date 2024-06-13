@@ -70,10 +70,12 @@
             // 
             // textBoxSearch
             // 
+            this.textBoxSearch.AccessibleDescription = "";
             this.textBoxSearch.Location = new System.Drawing.Point(78, 480);
             this.textBoxSearch.Name = "textBoxSearch";
             this.textBoxSearch.Size = new System.Drawing.Size(191, 20);
             this.textBoxSearch.TabIndex = 3;
+            this.textBoxSearch.Tag = "";
             // 
             // buttonSearch
             // 

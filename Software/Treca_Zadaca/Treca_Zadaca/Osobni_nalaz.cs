@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Treca_Zadaca
 {
@@ -26,7 +27,7 @@ namespace Treca_Zadaca
 
         private void FillDataGridView(string searchTerm = "")
         {
-            
+
             string connectionString = "Server=31.147.206.65;Database=PI2324_ktuksa22_DB;User Id=PI2324_ktuksa22_User;Password=WLV7_OMG;";
 
             using (SqlConnection con = new SqlConnection(connectionString))
@@ -173,5 +174,8 @@ namespace Treca_Zadaca
                 MessageBox.Show("Nije označen red za ažuriranje.");
             }
         }
+
+    
+        
     }
 }
